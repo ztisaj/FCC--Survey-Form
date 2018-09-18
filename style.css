@@ -1,0 +1,149 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    text-align: center;
+    font-size: 38px;
+    line-height: 34px;
+    margin: 20px auto 10px;
+    font-weight: 700;
+}
+
+#description {
+    text-align: center;
+    font-size: 16px;
+    margin: 0px auto 20px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+
+#survey-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 90%;
+    align-self: center;
+}
+
+#about,
+#about-garf {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: auto;
+    border: #4699a3 solid 5px;
+    background-color: #ebebfe;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+span {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.about-name {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 80%;
+    margin: auto 20% auto auto;
+    align-items: baseline;
+}
+
+#name-label,
+#email-label,
+#number-label {
+    font-size: 14px;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#name,
+#email,
+#number {
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: left;
+    padding: 5px 10px;
+    width: 60%;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: #46a385 solid 1px;
+}
+
+.color,
+.food,
+.sleep,
+.comment {
+    border: #4683bf solid 3px;
+    margin-bottom: 3px;
+    padding: 10px;
+    line-height: 24px;    
+    font-size: 13px;
+    align-items: baseline;
+    background-color: #fff;
+}
+
+#dropdown {
+    max-width: 200px;
+    margin: auto 10px;
+    border: #46a385 solid 1px;
+}
+
+#favorite-food,
+#garf-color,
+#sleep,
+#comment {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.fav-food {
+    margin-left: 10px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: #4683bf solid 3px;
+        background-color: #ebebfe;
+
+}
+
+#comment {
+    align-self: center;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#textarea {
+    width: 70%;
+    margin: auto;
+    height: 40px;
+    border: #46a385 solid 1px;
+    padding: 5px 10px;
+}
+
+#submit {
+    background-color: #4699a3;
+    height: 40px;
+    line-height: 26px;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 2px;
+    width: 40%;
+    align-self: center;
+    margin: auto;
+}
+
