@@ -1,5 +1,6 @@
 * {
     font-family: 'Nunito', sans-serif;
+    outline: none !important;
 }
 
 main {
@@ -34,13 +35,17 @@ main {
 #about,
 #about-garf {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     height: auto;
     border: #4699a3 solid 5px;
     background-color: #ebebfe;
     margin-bottom: 5px;
     padding: 10px;
+}
+
+#about-garf {
+    flex-direction: column
 }
 
 span {
@@ -52,9 +57,9 @@ span {
 
 .about-name {
     display: flex;
-    justify-content: flex-end;
-    max-width: 80%;
-    margin: auto 20% auto auto;
+    min-width: 80%;
+    margin: auto;
+    justify-content: center;
     align-items: baseline;
 }
 
@@ -64,6 +69,7 @@ span {
     font-size: 14px;
     font-weight: bold;
     vertical-align: middle;
+    width: 40px;
 }
 
 #name,
